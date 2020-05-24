@@ -1,0 +1,124 @@
+body {
+    height: 100%;
+    margin:0;
+    overflow:hidden;
+    text-align: center;
+    font-weight: bold;
+    background: url(../img/backguand4.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.div_frame{
+    margin: auto;
+    height: 100%;
+    width: 80%;
+    background-color: #ffffff;
+    border:1px solid #dcfff7;
+}
+.div_frame .div_title{
+    height: 10%;
+    width: 100%;
+    background-color: #edffb6;
+    border-bottom:2px solid #040404;
+    border-top: 2px solid #040404;
+}
+
+.div_title .title{
+    font-family: "Agency FB";
+    font-size:66px;
+    color: #040400;
+    text-align: center;
+    margin: auto;
+}
+.div_frame .div_left{
+    height:80%;
+    width: 50%;
+    border:1px solid #040404;
+    float: left;
+}
+
+#div_map{
+    height: 100%;
+    width: 100%;
+}
+.div_frame .div_left .div_fill{
+    height: 520px;
+}
+
+.div_frame .div_right{
+    height:522px;
+    width: 50%;
+    float: right;
+    background-color: #dcfff7;
+    border: 1px solid #0f0f0f;
+}
+.div_bottom{
+    margin-top: 520px;
+    margin-left: 10%;
+    width: 80%;
+    height: 100px;
+    background-color: #dcfff7;
+}
+.div_bottom .btm_ShowTrack {
+    margin-top: 1%;
+    font-family: "Agency FB";
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    zoom: 1;
+    padding: 6px 20px;
+    cursor: pointer;
+    overflow: visible;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #269CE9;
+    border-color: #269CE9;
+}
+.div_bottom .btm_ReDrawMap {
+    margin-top: 1%;
+    font-family: "Agency FB";
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    zoom: 1;
+    padding: 6px 20px;
+    cursor: pointer;
+    overflow: visible;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #269CE9;
+    border-color: #269CE9;
+}
+
+.btm_ReDrawMap {
+    margin-top: 1%;
+    margin-left: -50%;
+    font-family: "Agency FB";
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    zoom: 1;
+    padding: 6px 20px;
+    cursor: pointer;
+    overflow: visible;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #269CE9;
+    border-color: #269CE9;
+}
+.btm_ShowTrack {
+    margin-top: 1%;
+    margin-left: 5%;
+    font-family: "Agency FB";
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    zoom: 1;
+    padding: 6px 20px;
+    cursor: pointer;
+    overflow: visible;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: #269CE9;
+    border-color: #269CE9;
+}

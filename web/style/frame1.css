@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin:0;
+    overflow:hidden;
+    text-align: center;
+    font-weight: bold;
+    background: url(../img/backguand4.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.div_frame{
+    margin: 0px auto;
+    height: 721px;
+    width: 90%;
+    background-color: #ffffff;
+    border:1px solid #dcfff7;
+    border-bottom: 2px solid black;
+}
+
+.div_frame .div_title{
+    height: 13%;
+    width: 100%;
+    background-color: #edffb6;
+    border-bottom:2px solid #040404;
+    border-top: 2px solid #040404;
+}
+
+.div_title .title{
+    font-family: "Agency FB";
+    font-size:66px;
+    color: #040400;
+    text-align: center;
+    margin: auto;
+}
+
+.div_frame .div_left{
+    height:87%;
+    width: 50%;
+    border:1px solid #040404;
+    float: left;
+}
+
+#div_map{
+    height: 100%;
+    width: 100%;
+}
+
+.div_frame .div_right{
+    height:87%;
+    width: 50%;
+    float: right;
+    background-color: #dcfff7;
+    border: 1px solid #0f0f0f;
+}
+
+nav li:hover{
+    background: #f5f6fa;
+}
+
+nav a:hover{
+    background: #f5f6fa;
+}

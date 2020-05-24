@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Mining System</title>
+    <!--外部-->
+    <link href="external/leaflet/leaflet.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="external/bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+    <!--内部-->
+    <link href="style/frame1.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="div_frame" id="div_frame">
+
+    <div class="div_title" id="div_title">
+        <p class="title">Mining System</p>
+    </div>
+
+    <div class="div_left" id="div_left">
+
+        <div class="div_map" id="div_map">
+            <div class="div_fill" id="div_fill"></div>
+        </div>
+
+    </div>
+
+    <div class="div_right" id="div_right">
+
+            <!--显示结果内容-->
+<!--        <button id="btm_ReDrawMap" class="btm_ReDrawMap">重画地图</button>-->
+
+<!--        <button id="btm_ShowTrack" class="btm_ShowTrack">显示结果</button>-->
+
+
+        <nav class="navbar navbar-default">
+
+            <div class="container-fluid">
+
+                <div class="navbar-header" style="background: white">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" style="background: white" href="#" id="btm_ReDrawMap"><span class="glyphicon glyphicon-home"></span></a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background: white">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#" id="btm_ShowTrack">显示结果</a></li>
+<!--                        <li><a href="#">重绘地图</a></li>-->
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">One more separated link</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+
+                </div>
+
+            </div>
+        </nav>
+
+    </div>
+
+
+
+</div>
+
+
+
+
+<!--外部js-->
+<script src="external/jquery/jquery-3.2.0.min.js"></script>
+<script src="external/leaflet/leaflet.js"></script>
+<script src="external/leaflet_MoveMarker/MovingMarker.js"></script>
+<script src="external/bootstrap-3.3.7-dist/js/bootstrap.min.js" charset="UTF-8"></script>
+<!--内部js-->
+<script src="js/binding.js" charset="UTF-8"></script>
+<script src="js/function.js" charset="UTF-8"></script>
+<script src="js/init.js" charset="UTF-8"></script>
+</body>
+
+</html>
